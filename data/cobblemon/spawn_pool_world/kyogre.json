@@ -18,10 +18,7 @@
                 "biomes": [
                     "#cobblemon:is_deep_ocean"
                 ],
-                "canSeeSky": true,
-                "neededNearbyBlocks": [
-                    "#minecraft:water"
-                ]
+                "canSeeSky": true
             }
         }
     ]
