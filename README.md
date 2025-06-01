@@ -1,7 +1,7 @@
 # Mysticmon - Cobblepriests Addon
 A mysticmon addon that adds the various missing legendaries and mythicals into the game.
 Currently, the addon is made for 3.2.1, I am not sure about the lower or higher versions.
-
+---
 With Models:
   Kyogre: is_deep_ocean, canSeeSky": true
   
@@ -63,6 +63,8 @@ Mythicals:
   Melmetal: minecraft:trial_chambers
   
   Zarude: cobblemon:is_jungle, minecraft:old_growth_pine_taiga, minecraft:old_growth_spruce_taiga
+  
+---
 
 W/out Models: (Thus not added).
 Raikou
