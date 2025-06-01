@@ -5,6 +5,7 @@ Currently, the addon is made for 3.2.1, I am not sure about the lower or higher 
 ---
 
 With Models:
+  
   Kyogre: is_deep_ocean, canSeeSky": true
   
   Groudon: nether/is_basalt
@@ -46,6 +47,7 @@ With Models:
   Ogerpon: cobblemon:is_jungle, cobblemon:is_taiga
 
 Mythicals:
+  
   Deoxys: cobblemon:is_end
 
   Shaymin: cobblemon:is_floral, minecraft:grass_block
@@ -69,6 +71,7 @@ Mythicals:
 ---
 
 W/out Models: (Thus not added).
+  
   Raikou
   Entei
   Suicune
@@ -89,6 +92,7 @@ W/out Models: (Thus not added).
   Terapagos
 
 Mythicals:
+  
   Manaphy
   Phione
   Darkrai
