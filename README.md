@@ -73,29 +73,51 @@ Mythicals:
 W/out Models: (Thus not added).
   
   Raikou
+  
   Entei
+  
   Suicune
+  
   Lugia
+  
   Ho-Oh
+  
   Heatran
+  
   Cresselia
+  
   Cobalion
+  
   Terrakion
+  
   Virizion
+  
   Wo-Chien
+  
   Chien-Pao
+  
   Ting-Lu
+  
   Chi-Yu
+  
   Okidogi
+  
   Munkidori
+  
   Fezandipiti
+  
   Terapagos
 
 Mythicals:
   
   Manaphy
+  
   Phione
+  
   Darkrai
+  
   Volcanion
+  
   Zeraora
+  
   Pecharunt
