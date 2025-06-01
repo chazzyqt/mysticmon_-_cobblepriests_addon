@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "zacian-1",
+            "pokemon": "zacian",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50",
+            "weight": 0.4,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_plains",
+                    "#minecraft:meadow"
+                ],
+                "canSeeSky": true
+            }
+        }
+    ]
+}

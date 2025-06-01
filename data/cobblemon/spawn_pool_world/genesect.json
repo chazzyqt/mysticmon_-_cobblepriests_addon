@@ -1,0 +1,53 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "genesect-1",
+            "pokemon": "genesect",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60-70",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "genesect-1",
+            "pokemon": "genesect",
+            "presets": [ 
+                "natural",
+                "stronghold" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "40-50",
+            "weight": 0.25,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_forest",
+                    "#minecraft:meadow"
+                ],
+                "structures": [
+                    "#cobblemon:ruin"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_cold"
+                ]
+            }
+        }
+    ]
+}

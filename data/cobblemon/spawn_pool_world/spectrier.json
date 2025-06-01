@@ -1,0 +1,42 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "spectrier-1",
+            "pokemon": "spectrier",
+            "presets": [ 
+                "ground" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60-75",
+            "weight": 0.33,
+            "condition": {
+                "biomes": [ 
+                    "#minecraft:soul_sand_valley"
+                ]
+            }
+        },
+        {
+            "id": "spectrier-2",
+            "pokemon": "spectrier",
+            "presets": [ 
+                "ground" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-60",
+            "weight": 0.07,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:nether/is_basalt",
+                    "#minecraft:is_nether"
+                ]
+            }
+        }
+    ]
+}

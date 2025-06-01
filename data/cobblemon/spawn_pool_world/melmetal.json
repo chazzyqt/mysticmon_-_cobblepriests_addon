@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "melmetal-1",
+            "pokemon": "melmetal",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-70",
+            "weight": 0.01,
+            "condition": {
+                "structures": [
+                    "#minecraft:trial_chambers"
+                ],
+                "canSeeSky": false
+            }
+        }
+    ]
+}

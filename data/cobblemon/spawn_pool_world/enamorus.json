@@ -1,0 +1,30 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "enamorus-1",
+            "pokemon": "enamorus",
+            "presets": [ 
+                "ground" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "45-50",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_floral"
+                ],
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "#cobblemon:flowers",
+                    "#minecraft:dirt",
+                    "#minecraft:grass"
+                ]
+            }
+        }
+    ]
+}

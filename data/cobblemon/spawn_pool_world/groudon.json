@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "groudon-1",
+            "pokemon": "groudon",
+            "presets": [ 
+                "natural",
+                "ruined_portal"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:nether/is_basalt"
+                ]
+            }
+        }
+    ]
+}

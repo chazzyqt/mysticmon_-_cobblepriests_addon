@@ -1,0 +1,67 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "diancie-1",
+            "pokemon": "diancie",
+            "presets": [ 
+                "natural",
+                "underground" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-70",
+            "weight": 0.35,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_cave"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:gemstones",
+                    "#minecraft:diamond_ores",
+                    "#minecraft:emerald_ores"
+                ],
+                "canSeeSky": false,
+                "maxY": 60
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "diancie-2",
+            "pokemon": "diancie",
+            "presets": [ 
+                "natural",
+                "underground" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-70",
+            "weight": 0.075,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:gemstones",
+                    "#minecraft:diamond_ores",
+                    "#minecraft:emerald_ores"
+                ],
+                "canSeeSky": false,
+                "maxY": 60
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        }
+    ]
+}

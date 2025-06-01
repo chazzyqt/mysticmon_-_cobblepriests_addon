@@ -1,0 +1,49 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "shaymin-1",
+            "pokemon": "shaymin sky-forme=true",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "30-40",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_floral"  
+                ],
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "#minecraft:grass_block"
+                ]
+            }
+        },
+        {
+            "id": "shaymin-2",
+            "pokemon": "shaymin sky-forme=false",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "30-40",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_floral"
+                ],
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "#minecraft:grass_block"
+                ]
+            }
+        }
+    ]
+}

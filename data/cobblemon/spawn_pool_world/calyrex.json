@@ -1,0 +1,30 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "calyrex-1",
+            "pokemon": "calyrex",
+            "presets": [ 
+                "ground" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_plains",
+                    "minecraft:meadow"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:flowers"
+                ],
+                "canSeeSky": true,
+                "isThundering": false
+            }
+        }
+    ]
+}

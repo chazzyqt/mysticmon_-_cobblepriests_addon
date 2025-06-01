@@ -1,0 +1,79 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "zygarde-1",
+            "pokemon": "zygarde percent_cells=10",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-70",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_peak"
+                ]
+            }
+        },
+        {
+            "id": "zygarde-1a",
+            "pokemon": "zygarde percent_cells=10",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-70",
+            "weight": 0.4,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "#cobblemon:gemstones"
+                ],
+                "canSeeSky": false
+            }
+        },
+        {
+            "id": "zygarde-2",
+            "pokemon": "zygarde percent_cells=50",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-70",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_peak"
+                ],
+                "canSeeSky": false,
+                "maxY": 50
+            }
+        },
+        {
+            "id": "zygarde-2a",
+            "pokemon": "zygarde percent_cells=50",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-70",
+            "weight": 0.4,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "#cobblemon:gemstones"
+                ],
+                "canSeeSky": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "meltan-1",
+            "pokemon": "meltan",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "25-35",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_cave",
+                    "#minecraft:dripstone_caves",
+                    "#cobblemon:is_deep_dark"
+
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:iron_ores",
+                    "#minecraft:copper_ores",
+                    "#minecraft:gold_ores",
+                    "#minecraft:raw_iron_ores",
+                    "#minecraft:raw_copper_ores",
+                    "#minecraft:raw_gold_ores",
+                    "#minecraft:iron_block"
+                ],
+                "canSeeSky": false
+            }
+        },
+        {
+            "id": "meltan-2",
+            "pokemon": "meltan",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "25-35",
+            "weight": 0.75,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:iron_ores",
+                    "#minecraft:copper_ores",
+                    "#minecraft:gold_ores",
+                    "#minecraft:raw_iron_ores",
+                    "#minecraft:raw_copper_ores",
+                    "#minecraft:raw_gold_ores",
+                    "#minecraft:iron_block"
+                ],
+                "canSeeSky": false
+            }
+        }
+    ]
+}

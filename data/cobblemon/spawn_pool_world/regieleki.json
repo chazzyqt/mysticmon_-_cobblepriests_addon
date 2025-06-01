@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "regieleki-1",
+            "pokemon": "regieleki",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-75",
+            "weight": 0.4,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_overworld"
+                ],
+                "canSeeSky": true,
+                "minY": 85,
+                "isThundering": true
+            }
+        }
+    ]
+}

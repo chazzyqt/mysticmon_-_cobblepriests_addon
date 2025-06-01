@@ -1,0 +1,30 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "glastrier-1",
+            "pokemon": "glastrier",
+            "presets": [ 
+                "ground" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-60",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [ 
+                    "#cobblemon:is_freezing"
+                ],
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "#minecraft:snow_block",
+                    "#minecraft:ice",
+                    "#minecraft:packed_ice"
+                ]
+            }
+        }
+    ]
+}
