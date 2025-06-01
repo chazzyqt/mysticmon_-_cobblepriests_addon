@@ -1,7 +1,9 @@
 # Mysticmon - Cobblepriests Addon
 A mysticmon addon that adds the various missing legendaries and mythicals into the game.
 Currently, the addon is made for 3.2.1, I am not sure about the lower or higher versions.
+
 ---
+
 With Models:
   Kyogre: is_deep_ocean, canSeeSky": true
   
@@ -67,28 +69,29 @@ Mythicals:
 ---
 
 W/out Models: (Thus not added).
-Raikou
-Entei
-Suicune
-Lugia
-Ho-Oh
-Heatran
-Cresselia
-Cobalion
-Terrakion
-Virizion
-Wo-Chien
-Chien-Pao
-Ting-Lu
-Chi-Yu
-Okidogi
-Munkidori
-Fezandipiti
-Terapagos
+  Raikou
+  Entei
+  Suicune
+  Lugia
+  Ho-Oh
+  Heatran
+  Cresselia
+  Cobalion
+  Terrakion
+  Virizion
+  Wo-Chien
+  Chien-Pao
+  Ting-Lu
+  Chi-Yu
+  Okidogi
+  Munkidori
+  Fezandipiti
+  Terapagos
 
-Manaphy
-Phione
-Darkrai
-Volcanion
-Zeraora
-Pecharunt
+Mythicals:
+  Manaphy
+  Phione
+  Darkrai
+  Volcanion
+  Zeraora
+  Pecharunt
